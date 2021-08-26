@@ -9,15 +9,13 @@ Supermarket items are identified using Stock Keeping Units, or SKUs. In our stor
 For example, item A might cost 50 individually, but this week we have a special offer: buy three As and they’ll cost you 130.
 
 Example items
+### Example items
 
-SKU	Unit Price	Special Price
-
-A	    50	        3 for 130
-
-B	  30	        2 for 45
-
-C	  20	
-
-D	  15	
+| SKU | Unit Price | Special Price |
+|-----|-----------:|---------------|
+| A   | 50     	   | 3 for 130     |
+| B   | 30     	   | 2 for 45      |
+| C   | 20     	   |               |
+| D   | 15     	   |               |
 
 The checkout accepts items in any order, so that if we scan a B, an A, and another B, we will recognize the two Bs and price them at 45 (for a total price so far of 95). The pricing changes frequently, so pricing should be independent of the checkout.
