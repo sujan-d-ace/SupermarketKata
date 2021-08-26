@@ -15,10 +15,10 @@ namespace SupermarketKata
             //checkout.Scan(items);
 
             int isContinue = 1;
+            string item;
             var checkout = new Checkout();
             while (isContinue != 0)
-            {
-                string item;
+            {                
                 Console.WriteLine("Scan item");
                 item = Console.ReadLine();
                 Console.WriteLine();
