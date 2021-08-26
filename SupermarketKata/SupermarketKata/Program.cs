@@ -23,10 +23,26 @@ namespace SupermarketKata
                 item = Console.ReadLine();
                 Console.WriteLine();
 
-                checkout.Scan(item);
-
+                checkout.Scan(item.ToUpper());
+                
+                begin:
+                Console.WriteLine("Press Any number ---> continue scan item");
+                Console.WriteLine("0 ---> end scan item");
                 Console.WriteLine("Do you want to continue Scanning items?");
-                isContinue = Convert.ToInt32(Console.ReadLine());
+                try
+                {
+                    isContinue = Convert.ToInt32(Console.ReadLine());
+                }
+                catch
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("-----------------------------");
+                    Console.WriteLine("Wrong Input!!! Try Again!");
+                    Console.WriteLine("-----------------------------");
+                    Console.WriteLine();
+                    goto begin;
+                }                                       
+                
                 Console.WriteLine();
             }
 
