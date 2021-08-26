@@ -12,7 +12,7 @@ Example items
 
 SKU	Unit Price	Special Price
 
-A	  50	        3 for 130
+A	    50	        3 for 130
 
 B	  30	        2 for 45
 
