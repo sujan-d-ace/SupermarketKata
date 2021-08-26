@@ -1,9 +1,7 @@
 Supermarket Kata
 ================
 
-Using either C# or F# and a TDD approach, spent no more than two hours on your solution. There should be an emphasis on [clean coding principles](Assets/Clean-Code-V2.4.pdf).
-
-## Requirements
+Using either C# or F# and a TDD approach, spent no more than two hours on your solution. There should be an emphasis on clean coding principles.
 
 Supermarket items are identified using Stock Keeping Units, or SKUs. In our store, we will use letters of the alphabet (A, B, C, and so on). Our goods are priced individually. In addition, some items are multi-priced: buy N of them, and they will cost you Y pence. 
 
